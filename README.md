@@ -1,7 +1,8 @@
-# React Native
+# React Native for Designers
+![]Courtesy - Meng To
 ---
-
 [React Native](https://facebook.github.io/react-native/) is a popular Javascript framework that builds on top of React by using native components to create a real mobile app indistinguishable from one made using Xcode or Android Studio. The main difference with native development is that you get to use CSS, hot-reload, Javascript and other familiar techniques that the Web has grown over the past decades. Most importantly, you're building for both iOS and Android using the same codebase.
+
 
 ## Install Node
 
