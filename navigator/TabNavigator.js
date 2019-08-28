@@ -34,7 +34,7 @@ HomeStack.navigationOptions = ({ navigation }) => {
 
   return {
     tabBarVisible,
-    tabBarLabel: "Home",
+    tabBarLabel: "Composite",
     tabBarIcon: ({ focused }) => (
       <Icon.Ionicons
         name="ios-home"
@@ -50,7 +50,7 @@ const CoursesStack = createStackNavigator({
 });
 
 CoursesStack.navigationOptions = {
-  tabBarLabel: "Courses",
+  tabBarLabel: "Dashboard",
   tabBarIcon: ({ focused }) => (
     <Icon.Ionicons
       name="ios-albums"
@@ -65,7 +65,7 @@ const ProjectsStack = createStackNavigator({
 });
 
 ProjectsStack.navigationOptions = {
-  tabBarLabel: "Projects",
+  tabBarLabel: "Reports",
   tabBarIcon: ({ focused }) => (
     <Icon.Ionicons
       name="ios-folder"

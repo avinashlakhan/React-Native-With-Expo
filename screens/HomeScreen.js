@@ -178,7 +178,7 @@ class HomeScreen extends React.Component {
                   <Logo key={index} image={logo.image} text={logo.text} />
                 ))}
               </ScrollView>
-              <Subtitle>{"Continue Learning".toUpperCase()}</Subtitle>
+              <Subtitle>{"Statistics".toUpperCase()}</Subtitle>
               <ScrollView
                 horizontal={true}
                 style={{ paddingBottom: 30 }}
@@ -217,7 +217,7 @@ class HomeScreen extends React.Component {
                   }}
                 </Query>
               </ScrollView>
-              <Subtitle>{"Popular Courses".toUpperCase()}</Subtitle>
+              <Subtitle>{"Trainings - CRT".toUpperCase()}</Subtitle>
               <CoursesContainer>
                 {courses.map((course, index) => (
                   <Course
@@ -308,27 +308,15 @@ const TitleBar = styled.View`
 const logos = [
   {
     image: require("../assets/logo-framerx.png"),
-    text: "Framer X"
+    text: "RTDM"
   },
   {
     image: require("../assets/logo-figma.png"),
-    text: "Figma"
+    text: "BU"
   },
   {
     image: require("../assets/logo-studio.png"),
-    text: "Studio"
-  },
-  {
-    image: require("../assets/logo-react.png"),
-    text: "React"
-  },
-  {
-    image: require("../assets/logo-swift.png"),
-    text: "Swift"
-  },
-  {
-    image: require("../assets/logo-sketch.png"),
-    text: "Sketch"
+    text: "TA"
   }
 ];
 
